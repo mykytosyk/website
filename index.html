@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Мой первый учебный сайт</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+
+	<body>
+		<header>
+			<h1>Типо шапка сайта</h1>
+		</header>
+
+		<nav>
+			<h2>Тут типо меню сайта</h2>
+		</nav>
+
+		<section>
+		</section>
+
+		<article>
+		<main>
+			<div id="description">
+				<h2>Твое описание как человека</h2>
+				<p>Первое, что хочу заметить: <strong>Ты <dfn title="гей">пидор
+					</dfn>.</strong></p>
+					<p>Тебе, наверное, уже много кто об этом говорил,
+					<em>но я напомню.</em></p>
+					<p>Усёк? Давай, введи: <kbd>Я пидор</kbd>.</p>
+					<p>Кстати, <cite><em>"Я пидор"</em></cite> наоборот будет
+					<cite><em><bdo dir="rtl">"я пидор"</bdo></em></cite>.</p>
+					<p>Ладно, всё, ты <del datetime=20171008>натурал</del>
+					<ins cite="https://msiter.ru">пидор</ins>.</p>
+					<h3>Почему ты пидор?</h3>
+					<p>Помнишь тот случай с негром в 1 классе? Но, как
+					говорится, <cite>"Один раз - не пидорас"</cite>.</p>
+					<ol>
+						<li>Случай в 1 классе.</li>
+						<li>А помнишь, как вы с Петей в падике набухались?
+							Тут-то ты петух, если следовать фразе выше.</li>
+						<li>Ну, и, чтоб наверняка, та кошка Мурка на самом деле
+							кот.</li>
+					</ol>
+					<h3>СКРЫТАЯ РЕКЛАМА</h3>
+					<a href="kot/index.html">
+						<figure>
+							<img src="kot.gif" width="640" height="480"
+									  alt="ССЫЛКА НА САМЫЙ ОХРЕНЕННЫЙ САЙТ
+									  В МИРЕ" />
+							<figcaption>Скрытая реклама</figcaption>
+						</figure>
+					</a>
+					<h3>Особенности тебя как пидора:</h3>
+					<ul>
+						<li>любишь сунуться поближе к особям мужского пола;</li>
+						<li>зачем-то остаешься наедине c <mark>мужчинами</mark>
+							достаточно часто;</li>
+						<li>проявляешь симпатию к пирсингу;</li>
+						<li>паришь;</li>
+						<li>не смотришь на женщин;</li>
+						<li>самое ужасное: ты пишешь в таком стиле:
+							<code>
+								int <var>x</var>=0;
+							</code>
+							<p>То есть в стиле <samp>тип имя=значение;</samp>,
+							<strong>БЕЗ ОТСТУПОВ!!!</strong></p>
+							<p>О, спасите, пример твоего быдлокода:</p>
+							<pre>
+#include &lt;stdio.h&gt;
+int main(){
+int y=2;
+int x=5+y;
+printf("x+y=%d",x);}
+							</pre>
+						</li>
+					</ul>
+			</div>
+
+			<div id="table">
+				<h3>Таблица</h3>
+				<table cellpadding="5" cellspacing="4" border="1"
+										   summary="Твои брачные привычки">
+					<caption>Таблица зависимости твоего партнера ночью от дня
+						недели и настроения</caption>
+					<colgroup>
+						<col span="2" class="red">
+						<col class="orange">
+						<col class="yellow">
+						<col class="green">
+						<col class="blue">
+						<col class="dark blue">
+						<col class="purple">
+					</colgroup>
+
+					<thead>
+						<tr>
+							<th></th>
+							<th>Понедельник</th>
+							<th>Вторник</th>
+							<th>Среда</th>
+							<th>Четверг</th>
+							<th>Пятница</th>
+							<th>Суббота</th>
+							<th>Воскресенье</th>
+						</tr>
+					</thead>
+
+					<tfoot>
+					</tfoot>
+
+					<tbody>
+						<tr>
+							<th>Ты грустный</th>
+							<td colspan="3">Петя</td>
+							<td>Саша</td>
+							<td>Вова</td>
+							<td>Петя</td>
+							<td>Влад</td>
+						</tr>
+						<tr>
+							<th>Ты задумчивый</th>
+							<td>Валера</td>
+							<td>Влодвиг</td>
+							<td rowspan="2">Иван</td>
+							<td>Колян</td>
+							<td>Рафик</td>
+							<td>Витя</td>
+							<td>Витя</td>
+						</tr>
+						<tr>
+							<th>Ты весёлый</th>
+							<td>Влад</td>
+							<td>Олег</td>
+							<td>Вася</td>
+							<td>Андрей</td>
+							<td>Жора</td>
+							<td>Петя</td>
+						</tr>
+					</tbody>
+				</table>
+				<details>
+					<summary>Подробнее</summary>
+					<p>Составлено благодаря вечной слежке за тобой.</p>
+				</details>
+			</div>
+
+			<h4>Анкета пидора</h4>
+			<form action="form_script.php" method="post">
+				<fieldset>
+					<legend>Имя и Фамилия</legend>
+					<p><label for="name">Имя</label> и
+					<label for="second_name">фамилия</label>
+					<span title="ты">пидор</span>а:</p>
+					<p><input type="text" name="name" id="name" /></p>
+					<p><input type="text" name="second_name" id="second_name">
+					</p>
+				</fieldset>
+				<p>Где живешь?</p>
+				<select name="country">
+					<optgroup label="Африка">
+						<option value="gam">Гамбия</option>
+						<option value="mad">Мадагаскар</option>
+						<option value="nam">Намибия</option>
+					</optgroup>
+					<optgroup label="Европа">
+						<option value="fra">Франция</option>
+						<option value="rus">Россия</option>
+						<option value="uk">Великобритания</option>
+					</optgroup>
+					<optgroup label="Северная Америка">
+						<option value="can">Канада</option>
+						<option value="mex">Мексика</option>
+						<option value="usa">США</option>
+					</optgroup>
+				</select>
+				<p><textarea name="comments" rows="5"
+					cols="20">Пиши с кем долбился там, еще что.</textarea></p>
+				<p>Ты вообще насколько пидор?</p>
+				<p>
+				<select name="power">
+					<option value="very pidor">Очень пидор</option>
+					<option value="very very pidor">Очень очень пидор</option>
+					<option value="very very very pidor" selected="selected">
+					Очень очень очень пидор</option>
+				</select>
+				</p>
+				<p>Пароль:</p>
+				<p><input type="password" name="password" /></p>
+				<p>Сегодня долбился с друганом?</p>
+				<p><input type="checkbox" name="dolbilsya" checked="checked" />
+				Да</p>
+				<p>Ты даун?</p>
+				<p><input type="radio" name="down" value="yes" />Да</p>
+				<p><input type="radio" name="down" value="sure" />Конечно!</p>
+				<p><input type="radio" name="down" value="maybe" />Скорее
+				всего, да</p>
+				<p>Скинь своё любимое гей-порно</p>
+				<p><input type="file" name="porn" /></p>
+				<p><input type="button" name="imadown" value="Я даун!" /></p>
+				<p>Ты можешь просто подтвердить введенные данные:</p>
+				<p><input type="submit" /></p>
+				<p>Или сделать то же самое, заодно указав, с каким товарищем
+				ты бы подолбился:</p>
+				<p>
+				<figure>
+					<input type="image" name="imgsubmit" src="frnds.jpeg"
+										  width="388" height="168"
+						alt="Тут должны быть фотки товарищей">
+					<figcaption>Желающие подолбиться с тобой</figcaption>
+				</p>
+				<p><input type="reset" value="Очистить всё"/></p>
+				<p><input type="hidden" name="hiddeninfo" value="info" /></p>
+			</form>
+
+			<div id="info">
+				<h3>Словарь пидора</h3>
+				<dl>
+					<dt>Пидор</dt>
+					<dt>Гей</dt>
+					<dd>Простонародное название особей нетрадиционной
+					ориентации. Обычно мужского пола.</dd>
+					<dt>Уронил мыло</dt>
+					<dd>По воровским понятиям, уронивший мыло и поднявший его с
+					пола станет петухом.</dd>
+					<dd>Либо мыло, либо петух.</dd>
+
+					<dt>Петух</dt>
+					<dd>Изнасилованный особью своего же пола мужчина.</dd>
+				</dl>
+
+				<h3>До встречи!</h3>
+				<p>На этом все. И помни:</p>
+				<p><blockquote><em>"В современном мире всё больше парней и
+						девушек предпочитают не противоположный пол, а свой
+						родной и близкий. И если раньше об этом было не принято
+						говорить и вообще всячески порицалось, то сейчас во
+						многих странах поощряют и поддерживают
+						<abbr title="Без понятия, что это. Аббревиатура крч">
+							ЛГБТ</abbr> сообщество"</em></blockquote>
+				<p><a href="#content">Прочитать этот шыдевар еще раз</a></p>
+				<address>
+					Автор <span title="@soqquadro">Il Soqquadro</span>.<br />
+					Telegram [скрыто]<br />
+					Москва, ул. Строителей, 12<br />
+					Россия
+				</address>
+			</div>
+		</main>
+		</article>
+
+		<aside>
+			<p>А я тут, в стороне</p>
+		</aside>
+
+		<footer>
+			<p>Я футер сайта.</p>
+			<p>Собрание пидоров в <time datetime="2017-10-08 20:00">20:00
+			</time>.</p>
+		</footer>
+	</body>
+</html>

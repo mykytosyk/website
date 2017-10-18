@@ -1,0 +1,16 @@
+header {color: #cc33ff; background-color: #cc1111;}
+nav {color: #0000ff; background-color: #ff9900;}
+#description {color: #00ccff; background-color: #ffff00;}
+#table {color: #ff6699; background-color: #00cc00;}
+form {color: #ffff00; background-color: #00ccff;}
+#info {color: #ff9900; background-color: #0000ff;}
+footer {color: #cc1111; background-color: #cc33ff;}
+aside {color: #00ccff; background-color: #ff6699;}
+
+.red {background-color:  #cc1111;}
+.orange {background-color: #ff9900;}
+.yellow {background-color: #ffff00;}
+.green {background-color: #00cc00;}
+.blue {background-color: #00ccff;}
+.dark.blue {background-color: #0000ff;}
+.purple {background-color: #800080;}
